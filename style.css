@@ -103,3 +103,25 @@ body{
     font-family: 'Minecraft', sans-serif;
     color: grey;
 }
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disppear{
+    animation: vanish 1s forwards;
+    animation-delay: 0.1s;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
