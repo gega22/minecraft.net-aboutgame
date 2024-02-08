@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+body{
+    background: url('background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn:hover{
+    transform: translateY(-10px);
+}
+.btn1{
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    color: violet;
+    border: 10px;
+    border-radius: 5px;
+    transition: transform 0.4s;
+}
+.btn1:hover{
+    transform: translateY(-10px);
+}
+.play-to-survive-link{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+}
+.play-with-friends-link{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+}
+.play-to-create1{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.play-to-create2{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.play-to-create3{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.brl1{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.brl2{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.brl3{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.brl4{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.survive1{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.survive2{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.survive3{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.survive4{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.redstone1{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.redstone2{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.redstone3{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.redstone4{
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    color: grey;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disppear{
+    animation: vanish 1s forwards;
+    animation-delay: 0.1s;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
