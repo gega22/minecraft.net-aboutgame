@@ -1,127 +1,58 @@
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-    background: url('background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+background-color: black;
 }
-.btn:hover{
-    transform: translateY(-10px);
-}
-.btn1{
-    font-size: 2rem;
-    padding: 0.5em 1em;
-    font-weight: 700;
-    color: violet;
-    border: 10px;
+.btn1 {
+    float: lef;
+    background-color: #333333;
+    border: none;
+    color: blue;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
     border-radius: 5px;
-    transition: transform 0.4s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
 }
-.btn1:hover{
-    transform: translateY(-10px);
+
+.btn1:hover {
+    background-color: #555555;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+} 
+.btn2 {
+    float: right;
+    background-color: #333333;
+    border: none;
+    color: blue;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
 }
-.play-to-survive-link{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-}
-.play-with-friends-link{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-}
+
+.btn2:hover {
+    background-color: #555555;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+}  
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+  }
 .play-to-create1{
     font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: silver;
 }
-.play-to-create2{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.play-to-create3{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.brl1{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.brl2{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.brl3{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.brl4{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.survive1{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.survive2{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.survive3{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.survive4{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.redstone1{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.redstone2{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.redstone3{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.redstone4{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: grey;
-}
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: lightgrey;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .disppear{
-    animation: vanish 1s forwards;
-    animation-delay: 0.1s;
-  }
-  @keyframes vanish {
-    100%{
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
