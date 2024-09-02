@@ -16,14 +16,6 @@ background-color: black;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
-
-.btn1:hover {
-    background-color: #555555;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    padding: 5px 10px;
-} 
 .btn2 {
     float: right;
     background-color: #333333;
@@ -37,14 +29,6 @@ background-color: black;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
-
-.btn2:hover {
-    background-color: #555555;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    padding: 5px 10px;
-}  
   a {
     text-decoration: none;
     color: inherit;
